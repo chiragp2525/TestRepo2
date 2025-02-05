@@ -1,2 +1,2 @@
 This is test md file
-This is addednew line. Test1
+This is addednew line.
