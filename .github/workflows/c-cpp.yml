@@ -15,3 +15,13 @@ jobs:
     - uses: actions/checkout@v4
     - name: configure
       run:  gcc main.c -o hello
+
+test:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: configure
+      run:  echo "hello world"
