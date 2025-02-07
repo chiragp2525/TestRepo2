@@ -49,7 +49,7 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.1.8
       with:
-       name: testDeploy
-       path: ${{github.workspace}}/hello
+       name: hello
+       path: ${{github.workspace}}
 
       
