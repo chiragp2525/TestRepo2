@@ -16,8 +16,7 @@ jobs:
     - name: configure
       run:  gcc main.c -o hello
 
-test:
-  build:
+  test:
 
     runs-on: ubuntu-latest
 
