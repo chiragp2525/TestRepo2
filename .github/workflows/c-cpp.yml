@@ -16,6 +16,15 @@ jobs:
     - name: configure
       run:  gcc main.c -o hello
 
+      #artifact
+    - name: upload artifacts
+      uses: actions/upload-artifact@4.6.0
+      with:
+
+       name: upload artifact-bin
+       path: ${github.workspace}
+      
+
   test:
 
     runs-on: ubuntu-latest
