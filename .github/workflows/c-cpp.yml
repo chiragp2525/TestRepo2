@@ -20,9 +20,8 @@ jobs:
     - name: upload artifacts
       uses: actions/upload-artifact@4.6.0
       with:
-
-       name: upload artifact-bin
-       path: ${github.workspace}
+       name: package
+       path: ${{github.workspace}}/hello
       
 
   test:
