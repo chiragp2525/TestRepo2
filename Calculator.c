@@ -1,1 +1,1 @@
-Sample calc file, Lets conflict it
+Sample calc file, Lets keep this simple
