@@ -1,1 +1,1 @@
-Sample calc file, New word added
+Sample calc file, Lets keep this simple
