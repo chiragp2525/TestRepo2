@@ -44,7 +44,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: run script
-      run:  echo "This is Deploy script"
+      #run:  echo "This is Deploy script"
+      run: ./hello
 
     - name: Download a Build Artifact
       uses: actions/download-artifact@v4.1.8
